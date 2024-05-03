@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: 'Circular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Circular', sans-serif;
+}
+:root{
+  --fav-icon-active-color: #FF385C;
+  --fav-icon-color: #rgba(0, 0, 0, 0.5);
+}
+.active svg path{
+  fill: var(--fav-icon-active-color);
+}
+
+.fa-heart.active{
+  color: var(--fav-icon-active-color);
+}
+
+svg {
+  stroke: #fff;
+  stroke-width: 30px;
+}
+
+.slider_detail .slick-next:before, .slider_detail .slick-prev:before {
+  font-size: 40px;
+}
+
+
+

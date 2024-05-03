@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #dddddd;
+  height: 60px;
+}
+header .header_logo {
+  width: 17%;
+  display: block;
+}
+header .header_logo img {
+  display: block;
+  width: 80%;
+}
+header .header_profile {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+  align-items: center;
+}
+.header_profile a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222222;
+  padding: 1.5rem 1.3rem;
+  border-radius: 2rem;
+}
+
+.header_profile a:hover {
+  background-color: #f7f7f7;
+}
+.header_profile .global_icon {
+  font-size: 2rem;
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+.header_profile .global_icon:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+.header_profile .global_menu {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.profile_btn {
+  display: flex;
+  width: 15%;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5rem;
+  padding: 1rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.profile_btn:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+.profile_avt {
+  width: 40%;
+}
+.profile_avt img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}

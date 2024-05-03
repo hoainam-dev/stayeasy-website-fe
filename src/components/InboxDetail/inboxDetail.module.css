@@ -1,0 +1,196 @@
+.detail_box{
+    border: 1px solid #DDDDDD;
+    transition: all 0.4s;
+    width: 25%;
+}
+.detail_hide{
+    width: 0%;
+    transform: translateX(100%);
+}
+.detail_box:hover{
+    border: 1px solid #222222;
+}
+.detail_box_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem ;
+    border-bottom: 1px solid #DDDDDD;
+    height: 12%;
+    align-items: center;
+}
+.detail_box_top div{
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+}
+.detail_box_top div:hover{
+    background-color: #F7F7F7;
+}
+.detail_box_top div i{
+    font-size: 2rem;
+}
+.detail_img{
+    display: flex;
+    justify-content: center;
+}
+.detail_img img{
+    display: block;
+    width: 100%;
+}
+.detail_content{
+    height: 88%;
+    overflow-y: scroll;
+    padding: 0 2rem;
+}
+.detail_content_book {
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #DDDDDD;
+}
+.detail_content_book p{
+    color: #888;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.detail_content_book a{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    border: 1px solid #222222;
+    height: 5rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.detail_content_book a span{
+    font-size: 1.8rem;
+}
+.detail_content_book a:hover{
+    background-color: #F7F7F7;
+}
+.trip_content{
+    width: 80%;
+}
+.trip_content p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+.trip_content span{
+    font-size: 1.3rem;
+    color: #888;
+}
+.trip_icon{
+    width: 10%;
+}
+.trip_icon i{
+    font-size: 2rem;
+}
+.trip_detail_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trip_detail_containr h3{
+    font-size: 2.3rem;
+}
+.trip_detail_containr{
+    padding: 3rem 0 2rem 1.5rem;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.host_box{
+    display: flex;
+    padding: 2rem 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+
+}
+
+.host_info{
+    width: 80%;
+}
+.host_info p{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+.host_info span{
+    font-size: 1.3rem;
+}
+.host_image{
+    width: 20%;
+}
+.host_image img{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+.host_check{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+    border-bottom: 1px solid #DDDDDD;
+
+}
+.host_check span{
+    font-size: 1.6rem;
+}
+.pay_container{
+    padding: 1.5rem;
+    border-bottom: 1px solid #DDDDDD;
+
+}
+.pay_detail h3{
+    font-size: 2.3rem;
+}
+.pay_content{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pay_content span{
+    font-size: 1.5rem;
+}
+.tottal{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+
+}
+
+.tottal span{
+    font-size: 1.7rem;
+}
+.warning_detail{
+    padding: 1.5rem;
+    border-bottom: 1px solid #DDDDDD;
+
+}
+.warning_detail p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.warning_detail span{
+    font-size: 1.5rem;
+}
+.warning_detail span a{
+    color: #008489;
+    text-decoration: underline;
+}
+.report{
+    padding: 2rem 1.5rem 3rem 1.5rem;
+}
+.report a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}

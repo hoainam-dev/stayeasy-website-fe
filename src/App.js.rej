@@ -1,0 +1,10 @@
+diff a/src/App.js b/src/App.js	(rejected hunks)
+@@ -12,7 +12,7 @@
+ import PersonalInfo from "./pages/AccountSetting/PersonalInfo";
+ import LoginAndSecurity from "./pages/AccountSetting/LoginAndSecurity";
+ import PaymentsPayouts from "./pages/AccountSetting/PaymentsPayouts";
+-
++import CancelPayment from "./pages/CancelPayment";
+ import Login from "./pages/AccountSetting/Login";
+ import { ProtectedRoute, isAuthenticated } from "./pages/ProtectedRoute";
+ import AdminDarhBoard from "./pages/AdminDarhBoard";

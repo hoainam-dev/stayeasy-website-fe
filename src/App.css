@@ -1,0 +1,31 @@
+:root {
+  --fav-icon-active-color: #ff385c;
+  --fav-icon-color: #rgba(0, 0, 0, 0.5);
+}
+.activeHeart svg path {
+  fill: var(--fav-icon-active-color);
+}
+
+.slider_detail .slick-next:before,
+.slider_detail .slick-prev:before {
+  font-size: 40px;
+}
+.disable {
+  opacity: 0.5;
+  cursor: no-drop !important;
+}
+.checkActive{
+  right: 10px;
+  transition: 0.5s;
+  animation: 0.5s;
+}
+.btnActive{
+  right: 320px !important; 
+  transition: 0.5s !important; 
+  animation: 0.5s !important;  
+}
+.btnDeActive{
+  right: 10px !important; 
+  transition: 0.5s !important;
+  animation: 0.5s !important;
+}

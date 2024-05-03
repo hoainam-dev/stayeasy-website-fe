@@ -1,0 +1,89 @@
+.inbox_box{
+    width: 30%;
+    border: 1px solid #DDDDDD;
+    transition: all 0.4s;
+}
+.inbox_box:hover{
+    border: 1px solid #222222;
+}
+.inbox_box_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem ;
+    border-bottom: 1px solid #DDDDDD;
+    height: 12%;
+    align-items: center;
+}
+.inbox_box_top div{
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+}
+.inbox_box_top div:hover{
+    background-color: #F7F7F7;
+}
+.inbox_box_content{
+    height: 88%;
+    overflow-y: scroll;
+}
+.inbox_box_content ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+.box_message{
+    display: flex;
+    justify-content: space-between;
+    height: 89vh;
+}
+
+.box_message svg{
+    width: 20px;
+}
+
+
+.box_message h2{
+    font-size: 1.9rem;
+}
+
+.thread_box{
+    width: 40%;
+}
+
+.avt_box img{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.avt_box{
+    width: 16%;
+}
+.content_box{
+    width: 80%;
+}
+
+.content_box div{
+    margin: 0.8rem 0;
+}
+.name_user{
+    font-size: 1.5rem;
+    color: #222222;
+}
+.message_user{
+    font-size: 1.5rem;
+    color: #222222;
+}
+.sub_content{
+    color: #717171;
+    font-size: 1.5rem;
+}
+

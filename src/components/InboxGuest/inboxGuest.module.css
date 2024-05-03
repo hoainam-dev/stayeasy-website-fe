@@ -1,0 +1,83 @@
+.thread_box{
+    width: 40%;
+    border: 1px solid #DDDDDD;
+    transition: all 0.4s;
+}
+.thread_active{
+    width: 65%;
+}
+.thread_box:hover{
+    border: 1px solid #222222;
+}
+.thread_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    border-bottom: 1px solid #DDDDDD;
+    height: 12%;
+    align-items: center;
+}
+
+.thread_button button{
+    border: #222222 solid 2px;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.thread_center{
+    height: 75%;
+    overflow-y: scroll;
+    padding: 2rem;
+}
+.thread_center li{
+    display: flex;
+    /* align-items: center; */
+    padding: 2rem 0;
+}
+.thread_center .inbox_avater{
+    width: 10%;
+}
+.thread_center .inbox_avater img{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+.inbox_content{
+    width: 90%;
+    padding: 0 2rem;
+}
+.inbox_infor{
+    display: flex;
+}
+.inbox_infor span{
+    margin-left: 1rem;
+}
+.inbox_mess p{
+    font-size: 1.7rem;
+}
+.thread_chat{
+    height: 13%;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: center;
+    position: relative;
+}
+.thread_chat i{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+.thread_chat input{
+    border: 1px solid #717171;
+    border-radius: 3rem;
+    width: 100%;
+    height: 5rem;
+    padding: 0 2rem;
+}
+.thread_emoji{
+    position: absolute;
+    bottom: 10rem;
+    right: 0;
+}

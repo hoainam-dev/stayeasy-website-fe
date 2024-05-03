@@ -1,0 +1,17 @@
+.box_message{
+    display: flex;
+    justify-content: space-between;
+    height: 89vh;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+    height: 30%;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85); 
+}

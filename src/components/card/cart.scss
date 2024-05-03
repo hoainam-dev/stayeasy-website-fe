@@ -1,0 +1,13 @@
+.heart-btn.activeHeart {
+  color: red;
+}
+.heart-btn {
+  position: absolute;
+
+  .like-icon {
+    font-size: 3rem;
+    z-index: 1;
+    color: rgb(0 0 0 / 57%);
+    transition: all ease-in 0.2s;
+  }
+}
